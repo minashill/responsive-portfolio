@@ -1,0 +1,311 @@
+#menubar { float: right;
+	position: relative;
+	left: 100px;
+	top: -50px;
+	margin-right: 212px;
+	font-size: 20px;
+	height: 20px;
+}
+#container{
+	position: relative;
+	min-height: 100%;
+}
+.proimg{
+	float: left;
+	height: 160px;
+	width: 160px;
+	background-position: 50% 50%;
+	background-size: cover;
+	margin: 7px;
+}
+.linkimg{
+	height: 60px;
+	width: 60px;
+	background-position: 50% 50%;
+	background-size: cover;
+	margin: 5px;
+	display: inline-block;
+
+}
+article {
+	
+	padding-bottom: 25px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	height: 80%;
+}
+#formtitle {
+	width: 600px;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+#button {
+	width: 150px;
+	height: 60px;
+	background-color: #52aaa4;
+	text-align: center;
+	color: white;
+	top: 700px;
+	position: absolute;
+	line-height: 60px;
+}
+.label {
+	top: 125px;
+	left: 25px;
+	height: 56px;
+	width: 240px;
+	background-color: #52aaa4;
+	position: absolute;
+	z-index: 1;
+	color: white;
+	text-align: center;
+	line-height: 56px;
+	font-size: 25px;
+}
+#about {
+    height: 434px;
+    width: 580px;
+    background-color: white;
+    margin: 4% 0px 5% 5%;
+    padding: 30px;
+    float: left;
+}
+
+
+.connect {
+    background-color: white;
+    text-align: center;
+    float: right;
+    padding: 20px;
+    margin-right: 10%;
+    margin-top: 4%;
+    margin-bottom: 20%;
+}
+#contact {
+	height: 607px;
+	width: 800px;
+	padding: 27px;
+	background-color: white;
+	margin-top: 75px;
+	margin-left: 118px;
+	margin-bottom: 40px;
+	display: inline-block;
+
+}
+#portfolio {
+    background-color: white;
+    padding: 30px;
+    margin-top: 4%;
+    margin-left: 118px;
+    display: inline-block;
+    float: left;
+    margin-bottom: 10%;
+}
+
+}
+html {
+	position: relative;
+	min-height: 100%;
+}
+body { 
+	
+	padding: 25px;
+	margin-bottom: 125px;
+	
+}
+header {
+
+	background-color: white;
+	height: 88px;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	border-bottom: solid gray;
+}
+h1 { 	 margin-left: 146px;
+	width: 244px;
+	height: 88px;
+	line-height: 88px;
+	background-color: #52aaa4;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	position: relative;
+	display: block;
+
+}
+h2 {	 
+	font-size: 25px;
+	color: #52aaa4;
+	font-weight: bold;
+	padding: 10px; 
+	border-bottom: solid gray; 
+	padding-bottom: 10px
+
+
+}
+footer { 
+	text-align: center;
+	background-color: #666666;
+	
+	line-height: 100px;
+	color: white;
+	border-top: solid;
+	border-width: 5px;
+	border-color: #52aaa4;
+	width: 100%;
+	position: absolute;
+	bottom: -41%;
+	left: 0;
+	overflow: hidden;
+
+}
+ul { margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+
+
+}
+li { display: inline;
+
+
+}
+li a { 
+	font-size: large;
+	color: gray;
+	text-decoration: none;
+}
+p { line-height: 2em;
+	color: gray;
+	padding: 15px;
+}
+img { padding: 25px;
+
+}
+td {
+	height: 197px;
+	width: 266px;
+	position: relative;
+	z-index: 0;
+}
+a:hover {
+	color: #02bcf0;
+}
+#na{
+	width: 50%;
+}
+#em{
+	width: 50%;
+}
+#mess{
+	width: 75%;
+	height: 500%;
+}
+@media screen and (max-width: 980px) {
+
+	
+}
+@media screen and (max-width: 768px) {
+
+	#portfolio {
+	width: 50%;	
+	}
+	#menubar {
+		
+	}
+	#about {
+		margin-top: 10%;
+	}
+	#connect {
+		width: 85%;
+		display: block;
+	}
+	h2 {
+		
+	}
+	h1 {
+		
+	}
+	footer{
+		bottom: 0;
+	}
+	#contact{
+		width: 50%;
+	}
+	#na{
+
+	}
+	#em{
+
+	}
+	#mess{
+		width: 50%;
+	}
+}
+
+
+@media screen and (max-width: 640px) {
+	#portfolio {
+		background-color: white;
+		padding: 30px;
+		margin: 5% 20% 5% 20%;
+		display: block;
+		width: 50%;
+		overflow: hidden;
+	}
+	#contact{
+		width: 
+	}
+
+	#about {
+		background-color: white;
+		margin: 5%;
+		padding: 30px;
+		display: inline-block;
+	}
+	#connect {
+
+		background-color: white;
+		text-align: left;
+		display: block;
+		padding: 20px;
+		margin: 5% 5% 0 5%;
+	}
+	#menubar {
+
+		margin-left: 15%;
+		font-size: 20px;
+		padding: 5%;
+	}
+	h2 {
+		text-align: left;
+		padding: 10px;
+		font-size: 20px;
+		border-bottom: solid;
+		border-bottom-color: gray;
+		padding-bottom: 15px;
+	}
+	h1 {
+		height: 88px;
+		line-height: 88px;
+		background-color: #52aaa4;
+		color: white;
+		text-align: center;
+		font-size: 30px;
+		font-weight: bold;
+		position: relative;
+		display: block;
+	}	
+	img {
+		padding: 25px;
+		height: 75%;
+		width: 75%;
+	}
+	tbody {
+		display: inherit;
+	}
+}
